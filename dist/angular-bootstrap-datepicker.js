@@ -378,10 +378,10 @@
 			var formatted = this.getFormattedDate();
 			if (!this.isInput) {
 				if (this.component){
-					this.element.find('input').val(formatted).change();
+					this.element.find('input').val(formatted);
 				}
 			} else {
-				this.element.val(formatted).change();
+				this.element.val(formatted);
 			}
 		},
 
